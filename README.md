@@ -19,7 +19,7 @@ implementing a client in another language, or auditing the protocol.
 ## Install
 
 ```
-go get gitlab.com/unowned/wireauth
+go get gitlab.com/resoul/wireauth
 ```
 
 Requires Go 1.22+ (uses `crypto/ecdh`, standard library only — no
@@ -45,7 +45,7 @@ import (
 	"log"
 	"net/http"
 
-	"gitlab.com/unowned/wireauth"
+	"gitlab.com/resoul/wireauth"
 	"github.com/gorilla/websocket"
 )
 
